@@ -1,0 +1,380 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: azure;
+    box-shadow: 1px 2px 1px 1px black;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background: url(https://th.bing.com/th/id/R.b256f7bb991e3ce12a9474479b9ff22a?rik=3OToOywUep9ifg&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f09%2fred-wallpaper-11.jpg&ehk=h60J25Z8Bg0SWWE5utFibEXrrDD4P%2bGZ6ta%2bIIVx7nE%3d&risl=&pid=ImgRaw&r=0);
+    width: 100%;
+    padding: 0;
+    
+}
+
+#li{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    position: relative ;
+    top: 70px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+header h1 {
+    position: relative;
+    left: 200px;
+    color: white;
+}
+
+#Logotip_img{
+    width: 130px;
+    height: 130px;
+}
+
+.conteiner_1 {
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+.conteiner_1 {
+    width: 100%;
+    height: 700px;
+    background: url(https://th.bing.com/th/id/R.1b5168dd0253c1947a4a7a1244baa97a?rik=xZNJ7zDMzNjgvQ&pid=ImgRaw&r=0) no-repeat center center;
+    background-size: cover;
+}
+
+.linia{
+    width: 100%;
+    height: 10px;
+    background-color: #2f2f2f;
+}
+
+.text_1 {
+    max-width: 500px;
+    color: aliceblue;
+}
+
+.conteiner_2 {
+    background: url(https://th.bing.com/th/id/R.635d03b4fbad27c01a9609393c3de36c?rik=D0P5qZQzypVUyg&riu=http%3a%2f%2fhdwallpaperspulse.com%2fwp-content%2fuploads%2f2014%2f11%2f24%2fcolorful-Blur-Wallpapers.jpg&ehk=RN1L%2bAFe0sTF4lj0WErsR6ybVDT3RksljS4uP8atYGI%3d&risl=&pid=ImgRaw&r=0);
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteiner_3 {
+    background-color: #1e1e1e;
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteiner_4{
+    background-color: #272727;
+    color: aliceblue;
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.teathers {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#teacher{
+    position: relative;
+    top: 50px;
+    left: 42%;
+}
+
+.conteiner_5{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#btn_rass{
+    background-color: #272727;
+    border-radius: 12px;
+    border-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+}
+
+#btn_rass:hover{
+    background-color: rgb(160, 160, 160);
+    cursor: pointer;
+}
+
+.conteiner_5-1{
+    width: 100%;
+    height: 750px;
+    color: #ffffff;
+    background-color: #393939;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.conteiner_6{
+    background-color: #ff9100;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slider {
+    width: 600px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    height: 500px;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    margin-top: 100px;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+#nextBtn{
+    margin-bottom: 250px;
+}
+
+#prevBtn{
+    margin-bottom: 250px;
+}
+
+.conteiner_7{
+    background-color: #2f2f2f;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.vopros_1{
+    max-height: 90px;
+}
+
+.hidden {
+    display: none;
+}
+
+#toggleButton {
+    background-color: #2f2f2f;
+    width: 800px;
+    position: relative;
+    left: 400px;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;;
+    gap: 10px;
+}
+
+#toggleButton:hover {
+    background-color: #393939;
+}
+
+#arrow{
+    position: absolute;
+    margin-left: 750px;
+}
+
+#hiddenText{
+    background-color: #2f2f2f;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 15px;
+    max-width: 790px;
+    position: relative;
+    left: 400px;
+}
+
+.vopros_2{
+    max-height: 89px;
+}
+
+.hidden_2 {
+    display: none;
+}
+
+#toggleButton_2 {
+    background-color: #2f2f2f;
+    width: 800px;
+    position: relative;
+    left: 400px;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;;
+    gap: 10px;
+}
+
+#toggleButton_2:hover {
+    background-color: #393939;
+}
+
+#arrow_2{
+    position: absolute;
+    margin-left: 750px;
+}
+
+#hiddenText_2{
+    background-color: #2f2f2f;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 15px;
+    max-width: 790px;
+    position: relative;
+    left: 400px;
+}
+
+/* тут начало */
+.vopros_3{
+    max-height: 89px;
+}
+
+.hidden_3 {
+    display: none;
+}
+
+#toggleButton_3 {
+    background-color: #2f2f2f;
+    width: 800px;
+    position: relative;
+    left: 400px;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;;
+    gap: 10px;
+}
+
+#toggleButton_3:hover {
+    background-color: #393939;
+}
+
+#arrow_3{
+    position: absolute;
+    margin-left: 750px;
+}
+
+#hiddenText_3{
+    background-color: #2f2f2f;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 15px;
+    max-width: 790px;
+    position: relative;
+    left: 400px;
+}
+/* тут конец */
+
+.conteiner_8{
+    background-color: #852c2c;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 1px 1px black;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.Login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Btn_btn{
+    margin-left: -350px;
+}
+
+.conteiner_9{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin-top: -20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
